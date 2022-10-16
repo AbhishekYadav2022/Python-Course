@@ -1,5 +1,5 @@
 # These are lists 
-grocery = ["Harpic", "Vim bar", "Deodrant", "Rice","Pulse"]
+grocery = ["Harpic", "Vim bar", "Deodrant", "Rice", "Pulse", 39]
 print(grocery)
 print(grocery[3])
 

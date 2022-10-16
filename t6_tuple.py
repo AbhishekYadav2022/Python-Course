@@ -3,6 +3,10 @@
 tp = (1, 2, 3, 4, 5)
 print(tp)
 print(tp[0])
+tp2 = (1) # This is not a tuple 
+tp3 = (1,) # This is a tuple 
+print(type(tp2))
+print(type(tp3))
 
 # Swapping two numbers
 a = 1
