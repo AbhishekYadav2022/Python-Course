@@ -27,3 +27,29 @@ print(mystr.find("d")) # Function 6
 print(mystr.lower()) # Function 7
 print(mystr.upper()) # Function 8
 print(mystr.replace("lived", "lives")) # Function 9
+
+# From Python Crash Course
+# String and string methods;
+message = "This is a message"
+print(message)
+print(message.title())
+
+# Using Variables in Strings
+firstName = "Abhishek"
+lastName = "Yadav"
+
+""" These strings are called f-strings. The f is for format, because Python formats the string by replacing the name of any variable in braces with its 
+value."""
+
+print(f"My first name is {firstName} and my last name is {lastName}.")
+
+# Adding Whitespace to Strings with Tabs or Newline
+print("Languages:\n\tPython\n\tC\n\tJava\n\tJavascript")
+
+# Stripping Whitespace
+# The three stripping functions are lstrip(), rstrip(), and strip().
+name = " Yadav"
+print(name)
+print(name.strip()) # It will not remove whitespaces permanently
+name = name.strip() # It will remove whitespaces permanently
+print(name)
