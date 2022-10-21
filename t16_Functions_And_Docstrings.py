@@ -1,6 +1,4 @@
 # Sum function # Built-in function 
-from ast import arguments
-
 
 a = 9 
 b = 10
